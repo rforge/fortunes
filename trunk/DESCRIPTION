@@ -1,10 +1,10 @@
 Package: fortunes
-Version: 1.0-4
-Date: 2004-11-02
+Version: 1.0-5
+Date: 2004-11-30
 Title: R Fortunes
 Author: Achim Zeileis, fortune contributions from Torsten Hothorn, Peter
         Dalgaard, Uwe Ligges, Kevin Wright, Martin Maechler, Kjetil 
-	Brinchmann Halvorsen
+	Brinchmann Halvorsen, Kurt Hornik, Duncan Murdoch
 Maintainer: Achim Zeileis <Achim.Zeileis@wu-wien.ac.at>
 Description: R Fortunes
 Depends: R (>= 1.4.0)
