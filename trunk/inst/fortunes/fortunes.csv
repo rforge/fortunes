@@ -1,0 +1,17 @@
+quote;author;context;source;date
+Okay, let's stand up and be counted: who has been writing diamond graph code? Mine's 60 lines.;Barry Rowlingson;in a discussion about the patent for diamond graphs;R-help;August 2003
+Bug, undocumented behaviour, feature? I dont know. It all seems to work in 1.6.0, so everyone should downgrade now... :);Barry Rowlingson;NA;R-help;July 2003
+Robert, I really like you, but you're one of the strangest persons I know.;Kurt Hornik;in a discussion with Robert Gentleman;CompStat 2002, Berlin;August 2002
+I'm always thrilled when people discover what lexical scoping really means.;Robert Gentleman;NA;Statistical Computing 2003, Reisensburg;June 2003
+My institution has a particularly diabolical policy on intellectual property, especially on software.;Ross Ihaka;NA;R-help;August 2003
+If you imagine that this pen is Trellis, then Lattice is not this pen.;Paul Murrell;on the difference of Lattice (which eventually was called grid) and Trellis;DSC 2001, Wien;March 2001
+It is good to look around at what is available, but one shouldn't miss what is under one's nose either.;Robert Gentleman;NA;bioconductor;September 2003
+What we have is nice, but we need something very different.;Robert Gentleman;NA;Statistical Computing 2003, Reisensburg;June 2003
+Readable, obvious, maintainable, 'portable' for some value of 'portable'...;Barry Rowlingson;suggesting some function;R-help;September 2003
+`They' did write documentation that told you that Perl was needed, but `they' can't read it for you.;Brian D. Ripley;NA;R-help;February 2001
+Overall, SAS is about 11 years behind R and S-Plus in statistical capabilities (last year it was about 10 years behind) in my estimation.;Frank Harrell (SAS User, 1969-1991);NA;R-help;September 2003
+I want a budget.;Peter Dalgaard;in a talk about Tcl/Tk, meaning to say `I want a button widget';gR 2003, Aalborg;September 2003
+You can be maximally lazy, but still be efficient.;Kevin Murphy;describing the implementation of an algorithm;gR 2003, Aalborg;September 2003
+Andrew Thomas: ...and if something goes wrong here it is probably not WinBUGS since that has been running for more than 10 years...<x>Peter Green (from the back): ... and it still hasn't converged!;Andrew Thomas and Peter Green;during the talk about `BRugs';gR 2003, Aalborg;September 2003
+This is all documented in TFM. Those who WTFM don't want to have to WTFM again on the mailing list. RTFM.;Barry Rowlingson;NA;R-help;October 2003
+It really is hard to anticipate just how silly users can be.;Brian D. Ripley;NA;R-devel;October 2003

@@ -4,13 +4,13 @@ read.fortunes <- function(file = NULL)
     fortunes <- file
   } else {
     path <- .find.package("fortunes")
-    datafiles <- list.files(file.path(path, "data"))
-    if(!is.null(file) && file.exists(file.path(path, "data", file))) {
-      fortunes <- file.path(path, "data", file)
+    datafiles <- list.files(file.path(path, "fortunes"))
+    if(!is.null(file) && file.exists(file.path(path, "fortunes", file))) {
+      fortunes <- file.path(path, "fortunes", file)
     } else {
       if(!is.null(file)) stop(paste("sorry, `", file, "' not found", sep = ""))
       file <- datafiles[sapply(strsplit(datafiles, "\\."), function(x) (x[length(x)] == "csv"))]
-      fortunes <- file.path(path, "data", file)
+      fortunes <- file.path(path, "fortunes", file)
     }
   }
 
