@@ -30,12 +30,16 @@ fortune <- function(which = NULL, fortunes.data = NULL)
   if(is.character(which)) {
     fort <- apply(fortunes.data, 1, function(x) paste(x, collapse = " "))
     which <- grep(which, fort)
-    if(length(which) < 1) which <- sample(1:length(fort), 1)
+    ## if(length(which) < 1) which <- sample(1:length(fort), 1) ## return missings instead of random fortune
     if(length(which) > 1) which <- sample(which)
   }
   if(length(which) > 1) which <- which[1]
-  rval <- fortunes.data[which, ]
-  class(rval) <- "fortune"
+  if(length(which) > 0 && which %in% seq(along = rownames(fortunes.data))) {
+    rval <- fortunes.data[which, ]
+    class(rval) <- "fortune"
+  } else {
+    rval <- character(0)
+  }
   return(rval)
 }
 

@@ -7,14 +7,11 @@
 \title{R Fortunes}
 \description{Read and print R fortunes.}
 \usage{
-  read.fortunes(file = NULL)
   fortune(which = NULL, fortunes.data = NULL)
   \method{print}{fortune}(x, width = NULL, ...)
+  read.fortunes(file = NULL)
 }
 \arguments{
-  \item{file}{A character string giving a fortune database in csv format.
-    By default all csv files in the data directory of the
-    fortune package are used.}
   \item{which}{An integer specifying the row number of \code{fortunes.data}.
     Alternatively \code{which} can be a character and \code{grep} is used
     to try to find a suitable row.}
@@ -24,9 +21,15 @@
   \item{width}{Integer specifying the character width. By default \code{getOption("width")}
     is used.}
   \item{...}{Currently not used.}
+  \item{file}{A character string giving a fortune database in csv format.
+    By default all csv files in the data directory of the
+    fortune package are used.}
 }
 
 \value{
+  \code{fortune()} returns an object of class \code{"fortune"} which is
+  a row from a data frame of fortunes (like those read in from \code{read.fortune}).
+
   \code{read.fortune()} returns a data frame of fortunes, each row contains
   \itemize
   \item{quote}{the quote, main part of the fortune,}
