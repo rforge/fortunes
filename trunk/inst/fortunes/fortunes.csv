@@ -47,3 +47,4 @@ It seems to me against the spirit of Open Source software to attempt to monitor 
 Maybe you should contact Microsoft, and get them to modify their tools so they work on the R sources?;Duncan Murdoch;answering the question if there is a way compiling the R sources using VisualC++;R-help;April 2004
 Seldom are prizes, credit, and gratitude given, else Brian would be drowning in them.;Anthony Rossini;about the merits of implementing software;R-help;May 2004
 Release 1.0.0<x>(silence)<x>Wow! Thank you! [...] If I am allowed to ask just one question today: How do you fit 48 hours of coding in an ordinary day? Any hints will be appreciated ... :-);Detlef Steuer;on 2000-02-29;R-help;February 2000
+If you give people a linear model function you give them something dangerous.;John Fox;NA;useR! 2004, Vienna;May 2004
