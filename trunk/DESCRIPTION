@@ -2,7 +2,8 @@ Package: fortunes
 Version: 0.1-1
 Date: 2003-09-12
 Title: R Fortunes
-Author: Achim Zeileis, fortune contributions from Torsten Hothorn
+Author: Achim Zeileis, fortune contributions from Torsten Hothorn, Peter
+        Dalgaard
 Maintainer: Achim Zeileis <zeileis@ci.tuwien.ac.at>
 Description: R Fortunes
 Depends: R (>= 1.4.0)

@@ -72,7 +72,10 @@ print.fortune <- function(x, width = NULL, ...)
     return(rval)
   }
 
-  line1 <- linesplit(line1, width, gap = "")
+  line1 <- strsplit(line1, "<x>")[[1]]
+  for(i in 1:length(line1))
+    line1[i] <- linesplit(line1[i], width, gap = "")
+  line1 <- paste(line1, collapse = "\n")
   line2 <- linesplit(line2, width)
   line3 <- linesplit(line3, width)
 
