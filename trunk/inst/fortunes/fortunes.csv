@@ -1,7 +1,6 @@
 quote;author;context;source;date
 Okay, let's stand up and be counted: who has been writing diamond graph code? Mine's 60 lines.;Barry Rowlingson;in a discussion about the patent for diamond graphs;R-help;August 2003
 Bug, undocumented behaviour, feature? I dont know. It all seems to work in 1.6.0, so everyone should downgrade now... :);Barry Rowlingson;NA;R-help;July 2003
-Robert, I really like you, but you're one of the strangest persons I know.;Kurt Hornik;in a discussion with Robert Gentleman;CompStat 2002, Berlin;August 2002
 I'm always thrilled when people discover what lexical scoping really means.;Robert Gentleman;NA;Statistical Computing 2003, Reisensburg;June 2003
 My institution has a particularly diabolical policy on intellectual property, especially on software.;Ross Ihaka;NA;R-help;August 2003
 If you imagine that this pen is Trellis, then Lattice is not this pen.;Paul Murrell;on the difference of Lattice (which eventually was called grid) and Trellis;DSC 2001, Wien;March 2001
@@ -38,3 +37,4 @@ The keboard is the standard Italian layout, which is missing the ~ (tilde) key. 
 I'd like to prefix all these solutions with `Here's how to do it, but don't actually do it you crazy fool'. It's on a par with redefining pi, or redefining '+'. And then redefining '<-'. These techniques have their proper place, and that would be in the currently non-existent obfuscated R contest.<x>No, the R-ish (iRish?) way is to index vectors from 1. That's what the R gods intended!;Barry Rowlingson;in a discussion how vectors in R could be indexed starting from 0;R-help;March 2004
 I think that it's generally a good idea not to resist the most natural way of programming in R.;John Fox;NA;R-help;March 2004
 For almost 40 years SAS has been the primary tool for statisticians worldwide and its easy-to-learn syntax, unsurpassed graphical system, powerful macro language and recent graphical user interfaces have made SAS the number one statistical software choice for both beginners and advanced users.;Rolf Poalis, Biostatistics Denmark;announcement of the SAS to R parser sas2R;R-help;April 1, 2004
+Sorting is a wonderful topic! Especially because you can discuss different fundamental ideas like brute force, divide and conquer, and questions of efficiency, tradeoffs of space and time, etc.;Peter Wolf;NA;R-help;April 2004
