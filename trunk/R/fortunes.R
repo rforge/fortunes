@@ -27,6 +27,12 @@ fortune <- function(which = NULL, fortunes.data = NULL)
 {
   if(is.null(fortunes.data)) fortunes.data <- get("fortunes.data", pos = "package:fortunes")
   if(is.null(which)) which <- sample(1:nrow(fortunes.data), 1)
+  if(is.character(which)) {
+    fort <- apply(fortunes.data, 1, function(x) paste(x, collapse = " "))
+    which <- grep(which, fort)
+    if(length(which) < 1) which <- sample(1:length(fort), 1)
+    if(length(which) > 1) which <- sample(which)
+  }
   if(length(which) > 1) which <- which[1]
   rval <- fortunes.data[which, ]
   class(rval) <- "fortune"
@@ -35,7 +41,7 @@ fortune <- function(which = NULL, fortunes.data = NULL)
 
 print.fortune <- function(x, width = NULL, ...)
 {
-  if(is.null(width)) width <- options()$width
+  if(is.null(width)) width <- getOption("width")
   if(width < 10) stop("`width' must be greater than 10")
 
   if(is.na(x$context)) {

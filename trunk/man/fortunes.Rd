@@ -15,11 +15,13 @@
   \item{file}{A character string giving a fortune database in csv format.
     By default all csv files in the data directory of the
     fortune package are used.}
-  \item{which}{An integer specifying the row number of \code{fortunes.data}.}
+  \item{which}{An integer specifying the row number of \code{fortunes.data}.
+    Alternatively \code{which} can be a character and \code{grep} is used
+    to try to find a suitable row.}
   \item{fortunes.data}{A data frame containing a fortune in each row. By default
     the fortune data from the fortune package are used.}
   \item{x}{An object of class \code{"fortune"}, usually a single row from \code{fortunes.data}.}
-  \item{width}{Integer specifying the character width. By default \code{options()$width}
+  \item{width}{Integer specifying the character width. By default \code{getOption("width")}
     is used.}
   \item{...}{Currently not used.}
 }
@@ -36,5 +38,7 @@
 
 \examples{
 fortune()
+fortune("Ripley")
+fortune(17)
 }
 \keyword{misc}
