@@ -5,7 +5,7 @@ Title: R Fortunes
 Author: Achim Zeileis, fortune contributions from Torsten Hothorn, Peter
         Dalgaard, Uwe Ligges, Kevin Wright, Martin Maechler, Kjetil 
 	Brinchmann Halvorsen, Kurt Hornik, Duncan Murdoch
-Maintainer: Achim Zeileis <Achim.Zeileis@wu-wien.ac.at>
+Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
 Description: R Fortunes
 Depends: R (>= 1.4.0)
 License: GPL
