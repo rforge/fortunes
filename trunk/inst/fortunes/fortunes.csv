@@ -20,4 +20,4 @@ I plan to fix this - the report is just in case I forget or get hit by a bus.;Ro
 I just discovered to my surprise that I cannot define a function with an argument named 'break' or 'while'!<x>No, they are reserved names. [...] Most progamming languages have reserved words, so I am surprised you are surprised.;Thomas W. Blackwell and Brian D. Ripley;excerpt;R-help;November 2003
 R has changed quite a lot recently, and older preconceptions do need to be checked against current information.;Brian D. Ripley;NA;R-help;November 2003
 But a difference of a few minutes means that this is well under 20% of the total time unless your statistical analysis is very much speedier than mine.;Brian D. Ripley;NA;R-devel;November 2003
-I seem to recall that we were targetting 512k Macintoshes. In our dreams we might have seen 16Mb Sun.;Ross Ihaka;NA;R-help;November 2003
+I seem to recall that we were targetting 512k Macintoshes. In our dreams we might have seen 16Mb Sun.;Ross Ihaka;in reply to the question whether R&R thought when they started out that they would see R using 16G memory on a dual Opteron computer;R-help;November 2003
