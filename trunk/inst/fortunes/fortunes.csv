@@ -17,3 +17,4 @@ This is all documented in TFM. Those who WTFM don't want to have to WTFM again o
 It really is hard to anticipate just how silly users can be.;Brian D. Ripley;NA;R-devel;October 2003
 So apparently you wish to report as a bug the fact that R 1.8.0 is different from R 1.4.0.;Douglas Bates;NA;R-devel;October 2003
 I plan to fix this - the report is just in case I forget or get hit by a bus.;Ross Ihaka;reporting a bug in persp;R-help;October 2003
+I just discovered to my surprise that I cannot define a function with an argument named 'break' or 'while'!<x>No, they are reserved names. [...] Most progamming languages have reserved words, so I am surprised you are surprised.;Thomas W. Blackwell and Brian D. Ripley;excerpt;R-help;November 2003
