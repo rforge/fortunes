@@ -4,7 +4,7 @@ Date: 2003-10-23
 Title: R Fortunes
 Author: Achim Zeileis, fortune contributions from Torsten Hothorn, Peter
         Dalgaard, Uwe Ligges
-Maintainer: Achim Zeileis <zeileis@ci.tuwien.ac.at>
+Maintainer: Achim Zeileis <Achim.Zeileis@wu-wien.ac.at>
 Description: R Fortunes
 Depends: R (>= 1.4.0)
 License: GPL
