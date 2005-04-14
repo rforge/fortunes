@@ -4,7 +4,8 @@ Date: 2005-01-28
 Title: R Fortunes
 Author: Achim Zeileis, fortune contributions from Torsten Hothorn, Peter
         Dalgaard, Uwe Ligges, Kevin Wright, Martin Maechler, Kjetil 
-	Brinchmann Halvorsen, Kurt Hornik, Duncan Murdoch, Andy Bunn
+	Brinchmann Halvorsen, Kurt Hornik, Duncan Murdoch, Andy Bunn,
+	Ray Brownrigg
 Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
 Description: R Fortunes
 Depends: R (>= 1.4.0)
