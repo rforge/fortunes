@@ -113,3 +113,4 @@ You can't expect statistical procedures to rescue you from poor data.;Berton Gun
 "I think we can reject the null hypothesis of ""Dirk can type"" at all convential significance levels.";Dirk Eddelbuettel;after several users including himself had misspelled Ubuntu as Umbutu or Ubunto;R-help;April 2005
 "The problem, as always, is what the heck does one mean by `outlier' in these contexts. Seems to be like pornography -- ""I know it when I see it.""";Berton Gunter;quoting Justice Potter Stewart in a discussion about tests for outliers;R-help;April 2005
 [...] (damn... my shift key just broke as well...)<x>bill venables.;Bill Venables;answering a message that lacked upper case letters;R-help;April 2005
+It is a mistake to assume that everything is known about even the common approximations used in statistical practice, and this area is still opening up.;Bill Venables;in a discussion about how fitted generalized linear mixed models can be compared;R-help;April 2005
