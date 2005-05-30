@@ -8,5 +8,5 @@ Author: Achim Zeileis, fortune contributions from Torsten Hothorn, Peter
 	Ray Brownrigg, Roger Bivand
 Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
 Description: R Fortunes
-Depends: R (>= 1.4.0)
+Depends: R (>= 2.1.0)
 License: GPL
