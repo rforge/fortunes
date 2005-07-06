@@ -128,4 +128,5 @@ Rolf Turner: In the middle of a Saturday morning (in my Time Zone!) I send out a
 "Oops. Was that what I was expecting?";Louise Matthews;during the practicals of `Statistical Practice in Epidemiology Using R';SPE Course, Tartu; May 2005
 Well, `do as we say, not do as we do' applies, I think.;Brian D. Ripley;answering a report on a small inconsistency in `Writing R Extensions' by David Firth;R-devel;June 2005
 See pages 45 and 46 of V&R's S PROGRAMMING for a definitive discussion of how to do this.<x>(Confession: I treat anything that V&R say as definitive).;Berton Gunter;"in reply to the question how to parse a '...' function argument";R-help;June 2005
+A big computer, a complex algorithm and a long time does not equal science.;Robert Gentleman;NA;SSC 2003, Halifax;June 2003
 Uwe Ligges: I just told nonsense, stepclass() does not make sense with randomForest(), obviously ... (wonder why nobody shouted?).<x>Douglas Bates: Oh, we're just so used to you talking nonsense that we don't bother to point it out any more :-);Uwe Ligges and Douglas Bates;NA;R-help;July 2005
