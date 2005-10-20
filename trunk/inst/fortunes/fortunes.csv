@@ -140,3 +140,4 @@ If you aren't sure of the relative priority of two operators, use parentheses. 1
 It is wrong to blame ANY tool for our own shortcomings!;Robert Baer;about the perils of using PowerPoint;R-help;September 2005
 Jason Horn: Can anyone think of a way to create a pretty() sequence that excludes zero?  Or a way to remove the zero from a sequence after using pretty()?<x>Peter Dalgaard: The former is rather hard because zero is generally considered just about the prettiest number around...;Jason Horn and Peter Dalgaard;NA;R-help;October 2005
 Does anyone know someone working in this area in France who is not a JARP (Just Another R Person)?;Jan de Leeuw;NA;JSS mailing list;October 2005
+Contrary to popular belief the speed of R's interpreter is rarely the limiting factor to R's speed. People treating R like C is typically the limiting factor. You have vector operations, USE THEM.;Byron Ellis;NA;R-help;October 2005
