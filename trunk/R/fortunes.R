@@ -21,7 +21,9 @@ read.fortunes <- function(file = NULL)
   return(rval)
 }
 
-fortunes.data <- read.fortunes()
+.First.lib <- function(lib, pkg) {
+  assign("fortunes.data", read.fortunes(), pos = "package:fortunes")
+}
 
 fortune <- function(which = NULL, fortunes.data = NULL)
 {
