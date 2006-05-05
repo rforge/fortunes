@@ -163,3 +163,4 @@ There's probably some examples, but there are some examples of people using<x>  
 If we do that, I predict that the total amount of r-help time wasted on it will exceed the CPU time saved by orders of magnitude.;Duncan Murdoch;after a specialized function speeding up detection of NAs was suggested for base R;R-devel;April 2006
 "This has been discussed before in this list, and Ripley said ""no, no!"". I do it all the time, but only in secrecy.";Jari Oksanen;about replacing zero distances with tiny values for isoMDS();R-help;April 2006
 2-D pie charts are terrible. That makes 3-D pie charts terrible to the 3/2 power.;Frank Harrell;NA;R-help;April 2006
+Yourexamplesmightactuallybereeadableifyouusedyourspacebar.;Brian D. Ripley;answering a question containing code without any spaces;R-help;May 2006
