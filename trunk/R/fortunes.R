@@ -28,6 +28,12 @@ read.fortunes <- function(file = NULL)
 fortune <- function(which = NULL, fortunes.data = NULL)
 {
   if(is.null(fortunes.data)) fortunes.data <- get("fortunes.data", pos = "package:fortunes")
+
+  if(any(ind <- is.na(nchar(fortunes.data, "c")))) {
+    if(capabilities("iconv")) fortunes.data <- iconv(fortunes.data, "latin1", "")
+      else fortunes.data <- fortunes.data[!ind] ##FIXME
+  }
+
   if(is.null(which)) which <- sample(1:nrow(fortunes.data), 1)
   if(is.character(which)) {
     fort <- apply(fortunes.data, 1, function(x) paste(x, collapse = " "))
