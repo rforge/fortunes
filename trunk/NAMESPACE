@@ -1,0 +1,2 @@
+export("fortune", "read.fortunes")
+S3method("print", "fortune")
