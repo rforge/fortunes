@@ -1,7 +1,6 @@
 \name{fortunes}
 \alias{fortunes}
 \alias{read.fortunes}
-\alias{fortunes.data}
 \alias{fortune}
 \alias{print.fortune}
 \title{R Fortunes}
@@ -21,9 +20,8 @@
   \item{width}{Integer specifying the character width. By default \code{getOption("width")}
     is used.}
   \item{...}{Currently not used.}
-  \item{file}{A character string giving a fortune database in csv format.
-    By default all csv files in the data directory of the
-    fortune package are used.}
+  \item{file}{A character string giving a fortune database in csv format (in UTF-8 encoding).
+    By default all csv files in the data directory of the fortune package are used.}
 }
 
 \value{
