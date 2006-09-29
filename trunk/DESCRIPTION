@@ -11,4 +11,5 @@ Author: Achim Zeileis, fortune contributions from Torsten Hothorn, Peter
 Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
 Description: R Fortunes
 Depends: R (>= 2.1.0)
+LayzLoad: No
 License: GPL
