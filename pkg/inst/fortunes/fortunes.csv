@@ -191,3 +191,6 @@ Perhaps one is the real forge and the other is a forgery? Or a forge-R-y? I'll g
 It is all too easy for statistical thinking to be swamped by programming tasks.;Brian D. Ripley;NA;DSC 2001, Wien;March 2001
 R is being used for different purposes than the original interactive EDA environment.;Duncan Temple Lang;NA;DSC 2007, Auckland;February 2007
 RAM is cheap and thinking hurts.;Uwe Ligges;about memory requirements in R;R-help;June 2007
+All this becomes even more glaring if you take the unusal step of plotting the data.;Bill Venables;interpreting the results of an ANOVA analysis;R-help;July 2007
+"What sort of editor would overlook this clear and demonstrable message leaping out from the data in favour of some arcane argument about ""types of sums of squares""?  Several answers come to mind: A power freak, a SAS afficianado, an idiot.";Bill Venables;NA;R-help;July 2007
+If you really want to assess uncertainty you need to take into account that the models are false and that several models may capture different aspects of the data and so be false in different ways.;Brian D. Ripley;NA;R-help;July 2007
