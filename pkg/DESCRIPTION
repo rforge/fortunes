@@ -7,7 +7,7 @@ Author: Achim Zeileis, fortune contributions from Torsten Hothorn, Peter
 	Brinchmann Halvorsen, Kurt Hornik, Duncan Murdoch, Andy Bunn,
 	Ray Brownrigg, Roger Bivand, Spencer Graves, Jim Lemon, Christian
 	Kleiber, David L. Reiner, Berton Gunter, Roger Koenker, Charles Berry,
-	Marc Schwartz, Michael Dewey
+	Marc Schwartz, Michael Dewey, Ben Bolker
 Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
 Description: R Fortunes
 Depends: R (>= 2.1.0)
