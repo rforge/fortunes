@@ -197,3 +197,5 @@ If you really want to assess uncertainty you need to take into account that the 
 R will always be arcane to those who do not make a serious effort to learn it. It is **not** meant to be intuitive and easy for casual users to just plunge into. It is far too complex and powerful for that. But the rewards are great for serious data analysts who put in the effort.;Berton Gunter;NA;R-help;August 2007
 If anything, there should be a Law: Thou Shalt Not Even Think Of Producing A Graph That Looks Like Anything From A Spreadsheet.;Ted Harding;in a discussion about producing graphics;R-help;August 2008
 Friends don't let friends use Excel for statistics!;Jonathan D. Cryer;about problems with using Microsoft Excel for statistics;JSM 2001, Atlanta;August 2001
+"Anand Patil: Can this be fixed without requiring the user to do anything?<x>Brian D. Ripley: The fix requires 'the user' to read the documentation.";Anand Patil and Brian D. Ripley;about some compiler problems under Windows Vista;R-help;September 2007
+Bad English is the language of science.;Jan de Leeuw;NA;JSS mailing list;February 2005
