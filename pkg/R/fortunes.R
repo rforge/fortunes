@@ -35,8 +35,7 @@ fortune <- function(which = NULL, fortunes.data = NULL)
   if(is.null(which)) which <- sample(1:nrow(fortunes.data), 1)
   if(is.character(which)) {
     fort <- apply(fortunes.data, 1, function(x) paste(x, collapse = " "))
-    which <- grep(which, fort, useBytes = TRUE)
-    ## if(length(which) < 1) which <- sample(1:length(fort), 1) ## return missings instead of random fortune
+    which <- grep(which, fort, useBytes = TRUE, fixed = TRUE)
     if(length(which) > 1) which <- sample(which)
   }
   if(length(which) > 1) which <- which[1]
