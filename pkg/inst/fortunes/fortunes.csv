@@ -200,3 +200,4 @@ Friends don't let friends use Excel for statistics!;Jonathan D. Cryer;about prob
 "Anand Patil: Can this be fixed without requiring the user to do anything?<x>Brian D. Ripley: The fix requires 'the user' to read the documentation.";Anand Patil and Brian D. Ripley;about some compiler problems under Windows Vista;R-help;September 2007
 Bad English is the language of science.;Jan de Leeuw;NA;JSS mailing list;February 2005
 3-D bar plots are an abomination. Just because Excel can do them doesn't mean you should.<x>(Dismount pulpit).;Berton Gunter;NA;R-help;October 2007
+"Actually the documentation of sunflowerplot is wrong in botanical sense. Sunflowers have composite flowers in capitula, and the things called 'petals' in documentation are ligulate, sterile ray-florets (each with vestigial petals which are not easily visible in sunflower, but in some other species you may see three (occasionally two) teeth).";Jari Oksanen;NA;R-help;December 2007
