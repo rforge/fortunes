@@ -8,15 +8,17 @@ read.fortunes <- function(file = NULL)
     if(!is.null(file) && file.exists(file.path(path, file))) {
       fortunes <- file.path(path, file)
     } else {
-      if(!is.null(file)) stop(paste("sorry, `", file, "' not found", sep = ""))
-      file <- datafiles[sapply(strsplit(datafiles, "\\."), function(x) (x[length(x)] == "csv"))]
+      if(!is.null(file)) stop("sorry, ", sQuote(file), " not found")
+      file <- datafiles[sapply(strsplit(datafiles, "\\."),
+			       function(x) x[length(x)] == "csv")]
       fortunes <- file.path(path, file)
     }
   }
 
   rval <- NULL
   for(file in fortunes) {
-    rval <- rbind(rval, read.table(file, header = TRUE, sep = ";", quote = "\"", colClasses = "character"))
+    rval <- rbind(rval, read.table(file, header = TRUE, sep = ";",
+				   quote = "\"", colClasses = "character"))
   }
 
   return(rval)
@@ -30,7 +32,8 @@ fortunes.env <- new.env()
 
 fortune <- function(which = NULL, fortunes.data = NULL)
 {
-  if(is.null(fortunes.data)) fortunes.data <- get("fortunes.data", envir = fortunes.env)
+  if(is.null(fortunes.data))
+    fortunes.data <- get("fortunes.data", envir = fortunes.env)
 
   if(is.null(which)) which <- sample(1:nrow(fortunes.data), 1)
   if(is.character(which)) {
@@ -51,7 +54,7 @@ fortune <- function(which = NULL, fortunes.data = NULL)
 print.fortune <- function(x, width = NULL, ...)
 {
   if(is.null(width)) width <- getOption("width")
-  if(width < 10) stop("`width' must be greater than 10")
+  if(width < 10) stop("'width' must be greater than 10")
 
   if(is.na(x$context)) {
     x$context <- ""
@@ -66,7 +69,7 @@ print.fortune <- function(x, width = NULL, ...)
   } else {
     x$date <- paste(" (", x$date, ")", sep = "")
   }
-  if(any(is.na(x))) stop("`quote' and `author' are required")
+  if(any(is.na(x))) stop("'quote' and 'author' are required")
 
   line1 <- x$quote
   line2 <- paste("   -- ", x$author, x$context, sep = "")
@@ -78,7 +81,8 @@ print.fortune <- function(x, width = NULL, ...)
     rval <- NULL
     while(nchar(line) > width) {
       line <- strsplit(line, " ")[[1]]
-      if(any((nchar(line) + 1 + nchar(gap)) > width)) stop("`width' is too small for fortune")
+      if(any((nchar(line) + 1 + nchar(gap)) > width))
+          stop("'width' is too small for fortune")
       breakat <- which(cumsum(nchar(line) + 1) > width)[1] - 1
       rval <- paste(rval, paste(line[1:breakat], collapse = " "), "\n", sep = "")
       line <- paste(gap, paste(line[-(1:breakat)], collapse = " "), sep = "")
