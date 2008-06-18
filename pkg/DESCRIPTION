@@ -1,13 +1,15 @@
 Package: fortunes
 Version: 1.3-5
-Date: 2008-..-..
+Date: 2008-06-18
 Title: R Fortunes
-Author: Achim Zeileis, fortune contributions from Torsten Hothorn, Peter
-        Dalgaard, Uwe Ligges, Kevin Wright, Martin Maechler, Kjetil
-	Brinchmann Halvorsen, Kurt Hornik, Duncan Murdoch, Andy Bunn,
-	Ray Brownrigg, Roger Bivand, Spencer Graves, Jim Lemon, Christian
-	Kleiber, David L. Reiner, Berton Gunter, Roger Koenker, Charles Berry,
-	Marc Schwartz, Michael Dewey, Ben Bolker, Peter Dunn
+Author: Achim Zeileis (R code) and the R community (fortunes).
+        Fortune contributions by Torsten Hothorn, Peter Dalgaard,
+	Uwe Ligges, Kevin Wright, Martin Maechler, Kjetil
+	Brinchmann Halvorsen, Kurt Hornik, Duncan Murdoch,
+	Andy Bunn, Ray Brownrigg, Roger Bivand, Spencer Graves,
+	Jim Lemon, Christian Kleiber, David L. Reiner,
+	Berton Gunter, Roger Koenker, Charles Berry, Marc Schwartz,
+	Michael Dewey, Ben Bolker, Peter Dunn
 Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
 Description: R Fortunes
 Depends: R (>= 2.1.0)
