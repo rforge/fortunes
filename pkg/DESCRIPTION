@@ -9,9 +9,9 @@ Author: Achim Zeileis (R code) and the R community (fortunes).
 	Andy Bunn, Ray Brownrigg, Roger Bivand, Spencer Graves,
 	Jim Lemon, Christian Kleiber, David L. Reiner,
 	Berton Gunter, Roger Koenker, Charles Berry, Marc Schwartz,
-	Michael Dewey, Ben Bolker, Peter Dunn, Sarah Goslee
+	Michael Dewey, Ben Bolker, Peter Dunn, Sarah Goslee.
 Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
 Description: R Fortunes
 Depends: R (>= 2.1.0)
 LazyLoad: No
-License: GPL
+License: GPL-2
