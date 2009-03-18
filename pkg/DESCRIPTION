@@ -10,7 +10,8 @@ Author: Achim Zeileis (R code) and the R community (fortunes).
 	Jim Lemon, Christian Kleiber, David L. Reiner,
 	Berton Gunter, Roger Koenker, Charles Berry, Marc Schwartz,
 	Michael Dewey, Ben Bolker, Peter Dunn, Sarah Goslee, Simon
-	Blomberg, Bill Venables, Roland Rau, Thomas Petzoldt.
+	Blomberg, Bill Venables, Roland Rau, Thomas Petzoldt, Rolf
+	Turner.
 Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
 Description: R Fortunes
 Depends: R (>= 2.1.0)
