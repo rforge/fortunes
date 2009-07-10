@@ -234,4 +234,5 @@ As the name says, studentizing is left as an easy student exercise. Destudentizi
 Hmm. I don't ever use R-squared, so I didn't implement it.;Thomas Lumley;in reply to a question about how to compute R-squared using biglm;R-help;April 2009
 "The issue really comes down to the fact that the questions: ""exactly normal?"", and ""normal enough?"" are 2 very different questions (with the difference becoming greater with increased sample size) and while the first is the easier to answer, the second is generally the more useful one.";Greg Snow;"answering a question about a ""normality test"" suitable for large data";R-help;April 2009
 Trellis graphics are a bit like hash functions: you can be close to the target, but get a far-off result.;Dieter Menne;about problems with creating a suitable lattice panel function;R-help;August 2008
-The only people who should use the assign function are those who fully understand why you should never use the assign function.;Gregory L. Snow;;R-help;July 2009
+The only people who should use the assign function are those who fully understand why you should never use the assign function.;Gregory L. Snow;NA;R-help;July 2009
+4 bits are not enough for me!;Philippe Grosjean;after conference dinner incl. wine in a conversation about the representation of data in the ff package;useR! 2009, Rennes;July 2009
