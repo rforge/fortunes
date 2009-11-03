@@ -38,7 +38,10 @@ fortune <- function(which = NULL, fortunes.data = NULL)
   if(is.null(which)) which <- sample(1:nrow(fortunes.data), 1)
   if(is.character(which)) {
     fort <- apply(fortunes.data, 1, function(x) paste(x, collapse = " "))
-    which <- grep(which, fort, useBytes = TRUE, fixed = TRUE)
+    which1 <- grep(which, fort, useBytes = TRUE, fixed = TRUE)
+    if(is.null(which1)) which1 <- grep(which, fort,
+      useBytes = TRUE, fixed = TRUE, ignore.case = TRUE)
+    which <- which1
     if(length(which) > 1) which <- sample(which)
   }
   if(length(which) > 1) which <- which[1]
