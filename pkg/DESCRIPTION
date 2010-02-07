@@ -1,6 +1,6 @@
 Package: fortunes
 Version: 1.3-7
-Date: 2009-12-09
+Date: 2010-01-06
 Title: R Fortunes
 Author: Achim Zeileis (R code) and the R community (fortunes).
         Fortune contributions by Torsten Hothorn, Peter Dalgaard,
@@ -12,7 +12,7 @@ Author: Achim Zeileis (R code) and the R community (fortunes).
 	Michael Dewey, Ben Bolker, Peter Dunn, Sarah Goslee, Simon
 	Blomberg, Bill Venables, Roland Rau, Thomas Petzoldt, Rolf
 	Turner, Mark Leeds, Emmanuel Charpentier, Chris Evans, Paolo
-	Sonego.
+	Sonego, Peter Ehlers.
 Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
 Description: R Fortunes
 Depends: R (>= 2.1.0)

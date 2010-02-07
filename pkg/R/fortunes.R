@@ -39,8 +39,8 @@ fortune <- function(which = NULL, fortunes.data = NULL)
   if(is.character(which)) {
     fort <- apply(fortunes.data, 1, function(x) paste(x, collapse = " "))
     which1 <- grep(which, fort, useBytes = TRUE, fixed = TRUE)
-    if(is.null(which1)) which1 <- grep(which, fort,
-      useBytes = TRUE, fixed = TRUE, ignore.case = TRUE)
+    if(length(which1) < 1) which1 <- grep(tolower(which), tolower(fort),
+      useBytes = TRUE, fixed = TRUE)
     which <- which1
     if(length(which) > 1) which <- sample(which)
   }
