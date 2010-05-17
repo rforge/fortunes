@@ -12,7 +12,8 @@ Author: Achim Zeileis (R code) and the R community (fortunes).
 	Michael Dewey, Ben Bolker, Peter Dunn, Sarah Goslee, Simon
 	Blomberg, Bill Venables, Roland Rau, Thomas Petzoldt, Rolf
 	Turner, Mark Leeds, Emmanuel Charpentier, Chris Evans, Paolo
-	Sonego, Peter Ehlers, Detlef Steuer, Tal Galili.
+	Sonego, Peter Ehlers, Detlef Steuer, Tal Galili, Greg Snow,
+	Brian D. Ripley.
 Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
 Description: R Fortunes
 Depends: R (>= 2.1.0)
