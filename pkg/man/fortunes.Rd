@@ -3,6 +3,7 @@
 \alias{read.fortunes}
 \alias{fortune}
 \alias{print.fortune}
+\alias{toLatex.fortune}
 \title{R Fortunes}
 \description{Read and print R fortunes.}
 \usage{

@@ -106,3 +106,55 @@ print.fortune <- function(x, width = NULL, ...)
                   line3, "\n\n", sep = ""))
 }
 
+toLatex.fortune <- function(object, number = FALSE, width = c(1, 0.85), ...) {
+  width <- rep(width, length.out = 2)
+  escape_latex <- function(x) {
+    x <- gsub("\\\\ ", "\\textbackslash\\ ", x, fixed=TRUE)
+    x <- gsub("\\\\", "\\textbackslash ", x, fixed=TRUE)
+    x <- gsub("\\n", "\\textbackslash n", x, fixed=TRUE)
+    x <- gsub("#", "\\#", x, fixed=TRUE)
+    x <- gsub("$", "\\$", x, fixed=TRUE)
+    x <- gsub("&", "\\&", x, fixed=TRUE)
+    x <- gsub("~ ", "\\textasciitilde\\ ", x, fixed=TRUE)
+    x <- gsub("~", "\\textasciitilde ", x, fixed=TRUE)
+    x <- gsub("_", "\\_", x, fixed=TRUE)
+    x <- gsub("^", "\\verb|^|", x, fixed=TRUE)
+    x <- gsub("%", "\\%", x, fixed=TRUE)
+    x <- gsub("{", "\\{", x, fixed=TRUE)
+    x <- gsub("}", "\\}", x, fixed=TRUE)
+    x <- gsub(" '", " `", x, fixed=TRUE)
+    x <- gsub(" \"", " ``", x, fixed=TRUE)
+    x <- gsub("...", "{\\dots}", x, fixed=TRUE)
+    x <- gsub(" - ", " -- ", x, fixed=TRUE)
+    x
+  }  
+  if(is.na(object$context)) {
+    object$context <- ""
+  }  
+  if(is.na(object$source)) {
+    object$source <- ""
+  }
+  if(is.na(object$date)) {
+    object$date <- ""
+  } else {
+    object$date <- paste(" (", object$date, ")", sep = "")
+  }
+  if(any(is.na(object))) stop("'quote' and 'author' are required")
+  quote <- strsplit(object$quote,"<x>")[[1]]
+  quote <- c(rbind(t(quote), t(rep("",length(quote)))))
+  z <- paste("\\begin{minipage}{", width[1], "\\textwidth}", sep = "")
+  z <- c(z, paste(
+    if(number) paste("\\makebox[0pt][r]{\\tiny ", attr(object, "row.names"), "} ", sep = "") else "",
+    escape_latex(quote[1]), sep="")
+  )
+  z <- c(z, escape_latex(quote[-1]))
+  z <- c(z, paste("\\hfill---\\parbox[t]{", width[2], "\\textwidth}{\\emph{",
+    escape_latex(object$author), "}", sep = ""),
+    if(object$context == "") "" else paste("(", escape_latex(object$context), ")", sep = ""),
+    "",
+    paste(escape_latex(object$source), escape_latex(object$date), "}", sep=""),
+    "\\end{minipage}")
+  class(z) <- "Latex"
+  z
+}
+
