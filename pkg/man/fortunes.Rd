@@ -27,9 +27,9 @@
 
 \value{
   \code{fortune()} returns an object of class \code{"fortune"} which is
-  a row from a data frame of fortunes (like those read in from \code{read.fortune}).
+  a row from a data frame of fortunes (like those read in from \code{read.fortunes}).
 
-  \code{read.fortune()} returns a data frame of fortunes, each row contains:
+  \code{read.fortunes()} returns a data frame of fortunes, each row contains:
   \item{quote}{the quote, main part of the fortune,}
   \item{author}{the author of the quote,}
   \item{context}{the context in which it was quoted (if available, otherwise \code{NA}),}
