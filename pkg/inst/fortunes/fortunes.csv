@@ -279,3 +279,4 @@ We also have huge amounts of work going into calibration transfer, i.e. making q
 This reminds me of a famous FORTRAN code snippet:<x><x>10 STOP<x>STOP<x>STOP<x>! IN CASE STILL SKIDDING<x>GOTO 10<x>;Carl Witthoft;in response to the question how to completely stop R scripts after stop();R-help;January 2011
 "There is a reason that the speedometer in your car doesn't just read ""slow"" and ""fast"".";Frank Harrell;warning about the use of cutoffs after logistic regression;R-help;February 2011
 The style for JSS now enforces (via Achimitization) the use of quotes.;Michael Friendly;"on whether to quote or not to quote arguments like library(""Hmisc"") or help(""mean"")";R-help;March 2011
+"Although there is almost never a ""No"" in R, the best short answer is: ""No"".";Uwe Ligges;"in response to the question whether R has a concept of ""const objects"" as in C++ that avoid modification";R-help;March 2011
