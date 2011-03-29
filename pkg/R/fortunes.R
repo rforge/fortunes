@@ -18,7 +18,8 @@ read.fortunes <- function(file = NULL)
   rval <- NULL
   for(file in fortunes) {
     rval <- rbind(rval, read.table(file, header = TRUE, sep = ";",
-				   quote = "\"", colClasses = "character"))
+				   quote = "\"", colClasses = "character",
+				   encoding = "UTF-8"))
   }
 
   return(rval)
