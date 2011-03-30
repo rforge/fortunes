@@ -1,6 +1,5 @@
 \documentclass[a4paper]{article}
 \usepackage{a4wide}
-\usepackage[utf8]{inputenc}
 
 %\VignetteIndexEntry{R Fortunes: Collected Wisdom}
 %\VignetteDepends{fortunes, utils}
