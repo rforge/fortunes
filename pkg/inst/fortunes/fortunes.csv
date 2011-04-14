@@ -281,3 +281,4 @@ This reminds me of a famous FORTRAN code snippet:<x><x>10 STOP<x>STOP<x>STOP<x>!
 The style for JSS now enforces (via Achimitization) the use of quotes.;Michael Friendly;"on whether to quote or not to quote arguments like library(""Hmisc"") or help(""mean"")";R-help;March 2011
 "Although there is almost never a ""No"" in R, the best short answer is: ""No"".";Uwe Ligges;"in response to the question whether R has a concept of ""const objects"" as in C++ that avoid modification";R-help;March 2011
 Tested solutions offered when reproducible examples are provided.;David Winsemius;suggesting a potential solution to a vague problem description;R-help;April 2011
+The good way to do it is to include the following comment at the beginning:<x>"# This is a holy Script, please edit it not";Kenn Konstabel;"on ""... how to protect R Script files from inadvertent editing by users.""";R-help;April 2011
