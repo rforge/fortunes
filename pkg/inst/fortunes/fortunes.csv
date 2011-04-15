@@ -282,3 +282,4 @@ The style for JSS now enforces (via Achimitization) the use of quotes.;Michael F
 "Although there is almost never a ""No"" in R, the best short answer is: ""No"".";Uwe Ligges;"in response to the question whether R has a concept of ""const objects"" as in C++ that avoid modification";R-help;March 2011
 Tested solutions offered when reproducible examples are provided.;David Winsemius;suggesting a potential solution to a vague problem description;R-help;April 2011
 The good way to do it is to include the following comment at the beginning:<x>"# This is a holy Script, please edit it not";Kenn Konstabel;"on ""... how to protect R Script files from inadvertent editing by users.""";R-help;April 2011
+Sorry, but this is the R-help list.  The 'R Spam' list is over at /dev/null.;Dirk Eddelbuettel;after a poster misused the mailing list for advertising;R-help;April 2011
