@@ -15,7 +15,8 @@ Author: Achim Zeileis (R code) and the R community (fortunes).
 	Sonego, Peter Ehlers, Detlef Steuer, Tal Galili, Greg Snow,
 	Brian D. Ripley, Michael Sumner, David Winsemius, Liviu
 	Andronic, Brian Diggs, Matthieu Stigler, Michael Friendly,
-	Dirk Eddelbuettel, Richard M. Heiberger, Patrick Burns.
+	Dirk Eddelbuettel, Richard M. Heiberger, Patrick Burns,
+	Dieter Menne.
 Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
 Description: R Fortunes
 Depends: R (>= 2.1.0)
