@@ -30,7 +30,7 @@ fortunes.env <- new.env()
   assign("fortunes.data", read.fortunes(), envir = fortunes.env)
 }
 
-fortune <- function(which = NULL, fortunes.data = NULL)
+fortune <- function(which = NULL, fortunes.data = NULL, fixed = TRUE, ...)
 {
   if(is.null(fortunes.data))
     fortunes.data <- get("fortunes.data", envir = fortunes.env)
@@ -38,7 +38,7 @@ fortune <- function(which = NULL, fortunes.data = NULL)
   if(is.null(which)) which <- sample(1:nrow(fortunes.data), 1)
   if(is.character(which)) {
     fort <- apply(fortunes.data, 1, function(x) paste(x, collapse = " "))
-    which1 <- grep(which, fort, useBytes = TRUE, fixed = TRUE)
+    which1 <- grep(which, fort, useBytes = TRUE, fixed = fixed, ...)
     if(length(which1) < 1) which1 <- grep(tolower(which), tolower(fort),
       useBytes = TRUE, fixed = TRUE)
     which <- which1
@@ -127,10 +127,10 @@ toLatex.fortune <- function(object, number = FALSE, width = c(1, 0.85), ...) {
     x <- gsub("...", "{\\dots}", x, fixed=TRUE)
     x <- gsub(" - ", " -- ", x, fixed=TRUE)
     x
-  }  
+  }
   if(is.na(object$context)) {
     object$context <- ""
-  }  
+  }
   if(is.na(object$source)) {
     object$source <- ""
   }

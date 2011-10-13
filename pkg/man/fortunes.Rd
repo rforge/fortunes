@@ -7,7 +7,7 @@
 \title{R Fortunes}
 \description{Read and print R fortunes.}
 \usage{
-  fortune(which = NULL, fortunes.data = NULL)
+  fortune(which = NULL, fortunes.data = NULL, fixed = TRUE, ...)
   \method{print}{fortune}(x, width = NULL, ...)
   read.fortunes(file = NULL)
 }
@@ -17,10 +17,14 @@
     to try to find a suitable row.}
   \item{fortunes.data}{A data frame containing a fortune in each row. By default
     the fortune data from the fortune package are used.}
-  \item{x}{An object of class \code{"fortune"}, usually a single row from \code{fortunes.data}.}
-  \item{width}{Integer specifying the character width. By default \code{getOption("width")}
-    is used.}
-  \item{...}{Currently not used.}
+  \item{fixed}{logical passed to \code{\link{grep}}, indicating if it
+    should work (if true, as by default) with a simple character string
+    or (if false) with regular expressions.}
+  \item{\dots}{potential further arguments passed to \code{\link{grep}}.}
+  \item{x}{an object of class \code{"fortune"}, usually a single row
+    from \code{fortunes.data}.}
+  \item{width}{integer specifying the character width.  By default
+    \code{getOption("width")} is used.}
   \item{file}{A character string giving a fortune database in csv format (in UTF-8 encoding).
     By default all csv files in the data directory of the fortune package are used.}
 }
