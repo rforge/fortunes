@@ -17,9 +17,9 @@
     to try to find a suitable row.}
   \item{fortunes.data}{A data frame containing a fortune in each row. By default
     the fortune data from the fortune package are used.}
-  \item{fixed}{logical passed to \code{\link{grep}}, indicating if it
-    should work (if true, as by default) with a simple character string
-    or (if false) with regular expressions.}
+  \item{fixed}{logical passed to \code{\link{grep}} if \code{which} is a character,
+    indicating if it should work (if \code{TRUE}, as by default) with a simple character string
+    or (if \code{FALSE}) with regular expressions.}
   \item{\dots}{potential further arguments passed to \code{\link{grep}}.}
   \item{x}{an object of class \code{"fortune"}, usually a single row
     from \code{fortunes.data}.}
