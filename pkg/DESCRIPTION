@@ -1,5 +1,5 @@
 Package: fortunes
-Version: 1.5-0
+Version: 1.5-1
 Date: 2012-04-06
 Title: R Fortunes
 Author: Achim Zeileis (R code) and the R community (fortunes).
@@ -18,7 +18,7 @@ Author: Achim Zeileis (R code) and the R community (fortunes).
 	Dirk Eddelbuettel, Richard M. Heiberger, Patrick Burns,
 	Dieter Menne, Andrie de Vries, Barry Rowlingson, Renaud
 	Lancelot, R. Michael Weylandt, Jon Olav Skoien, Francois
-	Morneau.
+	Morneau, Antony Unwin.
 Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
 Description: R Fortunes
 Imports: utils
