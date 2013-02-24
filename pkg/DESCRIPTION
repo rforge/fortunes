@@ -18,7 +18,8 @@ Author: Achim Zeileis (R code) and the R community (fortunes).
 	Dirk Eddelbuettel, Richard M. Heiberger, Patrick Burns,
 	Dieter Menne, Andrie de Vries, Barry Rowlingson, Renaud
 	Lancelot, R. Michael Weylandt, Jon Olav Skoien, Francois
-	Morneau, Antony Unwin, Joshua Wiley, Terry Therneau.
+	Morneau, Antony Unwin, Joshua Wiley, Terry Therneau, Bryan
+	Hanson.
 Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
 Description: R Fortunes
 Imports: utils
