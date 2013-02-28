@@ -19,7 +19,7 @@ Author: Achim Zeileis (R code) and the R community (fortunes).
 	Dieter Menne, Andrie de Vries, Barry Rowlingson, Renaud
 	Lancelot, R. Michael Weylandt, Jon Olav Skoien, Francois
 	Morneau, Antony Unwin, Joshua Wiley, Terry Therneau, Bryan
-	Hanson.
+	Hanson, Henrik Singmann.
 Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
 Description: R Fortunes
 Imports: utils
