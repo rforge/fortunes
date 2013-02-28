@@ -336,3 +336,4 @@ Liang Che: For example, if coefficient's p-value is less than 0.1 I want the ste
 This should be FAQ 0.0. No other thing is asked as frequently as this. This is the FAQest of all FAQs, and a mother of all FAQs.;Jari Oksanen;answering yet another question related to FAQ 7.31;R-help;February 2013
 "I've already got an apartment reserved for me in one of Pat Burns's ""R Inferno"" levels, and I don't want to descend even further.";Berton Gunter;commenting on his own somewhat off-topic comment;R-help;February 2013
 Running as administrator is like heroin... any problems it solves it replaces with worse problems.;Jeff Newmiller;about running R CMD check as administrator;R-help;February 2013
+I think the rule is that you can do anything as long as you don't complain. If you want to complain, you must follow the instructions.;Jari Oksanen;about not following the instructions when compiling R-devel;R-devel;February 2013
