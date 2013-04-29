@@ -26,7 +26,8 @@ read.fortunes <- function(file = NULL)
 
 fortunes.env <- new.env()
 
-fortune <- function(which = NULL, fortunes.data = NULL, fixed = TRUE, ...)
+fortune <- function(which = NULL, fortunes.data = NULL, fixed = TRUE,
+                    showMatches = FALSE, ...)
 {
   if(is.null(fortunes.data)) {
     if(is.null(fortunes.env$fortunes.data)) fortunes.env$fortunes.data <- read.fortunes()
@@ -39,6 +40,8 @@ fortune <- function(which = NULL, fortunes.data = NULL, fixed = TRUE, ...)
     which1 <- grep(which, fort, useBytes = TRUE, fixed = fixed, ...)
     if(length(which1) < 1) which1 <- grep(tolower(which), tolower(fort),
       useBytes = TRUE, fixed = TRUE)
+    if(showMatches) cat("Matching row numbers:",
+			paste(which1, collapse=", "), "\n")
     which <- which1
     if(length(which) > 1) which <- sample(which)
   }
