@@ -87,7 +87,7 @@ print.fortune <- function(x, width = NULL, ...)
       line <- strsplit(line, " ")[[1]]
       if(any((nchar(line) + 1 + nchar(gap)) > width))
           stop("'width' is too small for fortune")
-      breakat <- which(cumsum(nchar(line) + 1) > width)[1] - 1
+      breakat <- which.max(cumsum(nchar(line) + 1) > width) - 1L
       rval <- paste(rval, paste(line[1:breakat], collapse = " "), "\n", sep = "")
       line <- paste(gap, paste(line[-(1:breakat)], collapse = " "), sep = "")
     }
