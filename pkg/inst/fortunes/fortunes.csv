@@ -354,3 +354,4 @@ But a spatial benchmark suite would be nice anyway.<x>I've just benchmarked my t
 I have it on good authority that a few of the statements in Bolker (2008) are out of date or slightly incorrect :-) .;Ben Bolker;in reply to a user that cited his 2008 practical guide to generalized linear mixed models;R-SIG-Mixed-Models;August 2013
 Well, the biggest room in the world is the room for improvement :);Soren Hojsgaard; in reply to a suggestion to make pbkrtest and lme4 more robust;R-SIG-Mixed-Models;August 2013
 I'm still confused about how to avoid the wrath of the CRAN-devel daemon, whose appetite for new morsels of developer flesh seems ever increasing and makes keeping even a stable package up-to-date a moving target.;Michael Friendly;about checking packages for CRAN;R-devel;September 2013
+Maybe I'll become a theoretician.   Nobody expects you to maintain a theorem.;Doug Bates;about keeping both Matrix and RcppEigen in sync with CHOLMOD;lme4-authors;September 2013
