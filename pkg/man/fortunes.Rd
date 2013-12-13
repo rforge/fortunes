@@ -50,8 +50,10 @@ fortune()
 fortune("Ripley")
 fortune(17)
 
-fortune("parse", showMatches=TRUE)# -> shows at least 5 matches
+\donttest{
+fortune("parse", showMatches = TRUE)# -> shows at least 5 matches
 ## The first three "all together":
 lapply(setNames(, c(38, 106, 129)), fortune)
+}
 }
 \keyword{misc}
