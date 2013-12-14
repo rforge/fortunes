@@ -51,6 +51,7 @@ fortune("Ripley")
 fortune(17)
 
 \donttest{
+## requires at least R 3.0.0
 fortune("parse", showMatches = TRUE)# -> shows at least 5 matches
 ## The first three "all together":
 lapply(setNames(, c(38, 106, 129)), fortune)
