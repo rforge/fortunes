@@ -1,5 +1,12 @@
 \documentclass[a4paper]{article}
-\usepackage{a4wide}
+
+\oddsidemargin  0.15 in
+\evensidemargin 0.35 in
+\marginparwidth 1 in
+\oddsidemargin 0.25 in
+\evensidemargin 0.25 in
+\marginparwidth 0.75 in
+\textwidth 5.875 in
 
 %\VignetteIndexEntry{R Fortunes: Collected Wisdom}
 %\VignetteDepends{fortunes, utils}
