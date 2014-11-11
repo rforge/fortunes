@@ -7,10 +7,10 @@
 \title{R Fortunes}
 \description{Read and print R fortunes.}
 \usage{
-  fortune(which = NULL, fortunes.data = NULL, fixed = TRUE,
-          showMatches = FALSE, ...)
-  \method{print}{fortune}(x, width = NULL, ...)
-  read.fortunes(file = NULL)
+fortune(which = NULL, fortunes.data = NULL, fixed = TRUE,
+        showMatches = FALSE, ...)
+\method{print}{fortune}(x, width = NULL, ...)
+read.fortunes(file = NULL)
 }
 \arguments{
   \item{which}{an integer specifying the row number of \code{fortunes.data}.
@@ -29,7 +29,7 @@
     from \code{fortunes.data}.}
   \item{width}{integer specifying the character width.  By default
     \code{getOption("width")} is used.}
-  \item{file}{A character string giving a fortune database in csv format (in UTF-8 encoding).
+  \item{file}{a character string giving a fortune database in csv format (in UTF-8 encoding).
     By default all csv files in the data directory of the fortune package are used.}
 }
 
