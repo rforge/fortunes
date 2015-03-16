@@ -365,3 +365,4 @@ Jeff Newmiller's rhelp/ggplot strategy checklist:<x>> Reproducibility == good (e
 Michael Mason: Thanks! That worked.<x>Martin Maechler: Of course: As in about 99.99% of all cases where Bill Dunlap  helps.;Michael Mason and Martin Maechler;after Bill Dunlap helped with a plot.hclust problem;R-help;November 2014
 When in doubt, keep adding slashes until it works.;Joran Elias;on how to escape a backslash in R;Stackoverflow;March 2015
 .RData files (the ones with nothing before the period) are just traps for your future self, with no documentation. I avoid them like the plague.;Jeff Newmiller;in a discussion on whether to store certain defaults in .Rprofile or .RData files;R-help;March 2015
+"hist(rnorm(1e6), col = colors()[grep(""grey"", colors())], nclass = 108, main = ""R's 108 Shades of Grey"")";Fritz Scholz;proving R has more than 50 Shades of Grey;private communication;March 2015
