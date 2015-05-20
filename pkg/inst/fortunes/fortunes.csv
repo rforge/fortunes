@@ -366,3 +366,4 @@ Michael Mason: Thanks! That worked.<x>Martin Maechler: Of course: As in about 99
 When in doubt, keep adding slashes until it works.;Joran Elias;on how to escape a backslash in R;Stackoverflow;March 2015
 .RData files (the ones with nothing before the period) are just traps for your future self, with no documentation. I avoid them like the plague.;Jeff Newmiller;in a discussion on whether to store certain defaults in .Rprofile or .RData files;R-help;March 2015
 "hist(rnorm(1e6), col = colors()[grep(""grey"", colors())], nclass = 108, main = ""R's 108 Shades of Grey"")";Fritz Scholz;proving R has more than 50 Shades of Grey;private communication;March 2015
+"In real life, be very careful before denigrating a child to its mother or father... so calling a something a bug in R which is none, is evoking feelings among R's parents  .. ;-)";Martin Maechler;after a package author reported a bug in R that was actually a bug in his own code;R-devel;May 2015
