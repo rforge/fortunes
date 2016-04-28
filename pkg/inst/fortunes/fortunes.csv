@@ -376,3 +376,4 @@ Ooops, that was answering the question you actually asked. The one you meant to 
 Note that there is a reasonable discussion in Writing R Extensions, but as always, you have to find it first.;Dirk Eddelbuettel;in a discussion about where to include data-generating scripts in an R package;R-pkg-devel;March 2016
 They're just statistics. How could it hurt to look at them?;Duncan Murdoch;in a discussion about the merits and perils of p-values;R-help;April 2016
 I prefer _Melodramatic Analysis_.;Dirk Eddelbuettel;after Barry Rowlingson noticed 'Sentimental Analysis' as a misspelled 'Sentiment Analysis' on datascience.stackexchange.com;R chatroom on stackoverflow.com;April 2016
+Weird. Over at ESS they discuss how to debug with %>% when I always thought that having %>% was the bug.;Dirk Eddelbuettel;about an ESS issue ticket discussion concerning debugging when %>% is used;R chatroom on stackoverflow.com;April 2016
