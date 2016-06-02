@@ -40,15 +40,16 @@ read.fortunes <- function(file = NULL)
 fortunes.env <- new.env()
 
 fortune <- function(which = NULL, fortunes.data = NULL, fixed = TRUE,
-                    showMatches = FALSE, author = character(), ...)
+                    showMatches = FALSE, author = character(), silent = FALSE, ...)
 {
   if(is.null(fortunes.data)) {
     if(is.null(fortunes.env$fortunes.data)) fortunes.env$fortunes.data <- read.fortunes()
     fortunes.data <- fortunes.env$fortunes.data
   }
 
-  if(is.null(which)) which <- sample.int(nrow(fortunes.data), 1)
-  else if(is.character(which)) {
+  if(is.null(which) && !length(author))
+    which <- sample.int(nrow(fortunes.data), 1)
+  else if(is.character(which) || length(author)) {
     if(length(author)) {
       if(is.null(fd.auth <- fortunes.data[,"author"]))
           warning("The 'fortunes.data' do not have an \"author\" column")
@@ -56,18 +57,25 @@ fortune <- function(which = NULL, fortunes.data = NULL, fixed = TRUE,
           fortunes.data <-
               fortunes.data[ grep(author, fd.auth, useBytes=TRUE, fixed=fixed), ]
     }
-    fort <- apply(fortunes.data, 1, function(x) paste(x, collapse = " "))
-    which1 <- grep(which, fort, useBytes = TRUE, fixed = fixed, ...)
-    if(length(which1) < 1)
-      which1 <- grep(tolower(which), tolower(fort), useBytes = TRUE, fixed = TRUE)
+    if(is.character(which)) {
+      fort <- apply(fortunes.data, 1, function(x) paste(x, collapse = " "))
+      which1 <- grep(which, fort, useBytes = TRUE, fixed = fixed, ...)
+      if(length(which1) < 1)
+        which1 <- grep(tolower(which), tolower(fort), useBytes = TRUE, fixed = TRUE, ...)
+    } else # currently, 'author' only
+      which1 <- seq_len(nrow(fortunes.data))
     if(showMatches) cat("Matching row numbers:",
 			paste(which1, collapse=", "), "\n")
     which <- which1
-    if(length(which) > 1) which <- sample(which)[1]
+    if(length(which) > 1) which <- sample(which, size = 1)
   }
   if(length(which) > 0 && which %in% seq(along = rownames(fortunes.data))) {
     structure(fortunes.data[which, ], class = "fortune")
-  } else character(0)
+  } else {
+    if(!silent && fixed)
+      message("nothing found;  maybe try  fortune(.., fixed=FALSE)  ?")
+    character(0)
+  }
 }
 
 print.fortune <- function(x, width = NULL, ...)

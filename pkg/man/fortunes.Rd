@@ -8,7 +8,7 @@
 \description{Read and print \R fortunes.}
 \usage{
 fortune(which = NULL, fortunes.data = NULL, fixed = TRUE,
-        showMatches = FALSE, author = character(),...)
+        showMatches = FALSE, author = character(), silent = FALSE, ...)
 \method{print}{fortune}(x, width = NULL, ...)
 read.fortunes(file = NULL)
 }
@@ -27,6 +27,8 @@ read.fortunes(file = NULL)
   \item{author}{a \code{\link{character}} string to match (via
     \code{\link{grep}}) to the \code{"authors"} column of
     \code{fortunes.data}.}
+  \item{silent}{logical indicating if users should be told about
+    \code{fixed = FALSE} when they find nothing.}
   \item{\dots}{potential further arguments passed to \code{\link{grep}}.}
   \item{x}{an object of class \code{"fortune"}, usually a single row
     from \code{fortunes.data}.}
@@ -49,16 +51,18 @@ read.fortunes(file = NULL)
 }
 
 \examples{
-fortune()
-fortune("Ripley")
+fortune() # a random one
+fortune("Ripley")# a random one from those with 'Ripley'
 fortune(17)
 
-\donttest{
-## requires at least R 3.0.0
 fortune("parse", showMatches = TRUE)# -> shows at least 5 matches
-## The first three "all together":
+\donttest{
+## The first three "all together"   ('setNames()' requires at least R 3.0.0):
 lapply(setNames(, c(38, 106, 129)), fortune)
 }
+fortune("parse.*answer")                ## nothing found, get a message
+fortune("parse.*answer", fixed = FALSE) ## aha !
+
 fortune(author = "Bates")
 }
 \keyword{misc}
