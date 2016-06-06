@@ -381,3 +381,4 @@ Weird. Over at ESS they discuss how to debug with %>% when I always thought that
 Teach a man to fish, and he'll use StackOverflow for a day. Give him a fish, and he'll use StackOverflow for a lifetime of free fish.;Joshua Ulrich;about pointing to R documentation on StackOverflow;stackoverflow.com;May 2016
 "You should try things; R won't break.";Duncan Murdoch;encouraging a user to explore R's graphical capabilities;R-help;May 2016
 Please don't apply R like a magic answers box, because you can mislead others and cause harm.;Jeff Newmiller;about how much statistical knowledge is needed for using R;R-help;May 2016
+Your example requires all choices of 1541 out of 3000, which I would expect to take somewhere near age-of-the-universe seconds to compute. The code uses a clever nested computation due to Gail et al which will cut that time down to infinity/10.;Terry Therneau;on an example with exact computations in coxph;R-help;June 2016
