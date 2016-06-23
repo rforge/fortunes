@@ -1,6 +1,4 @@
-
-stopifnot(require("fortunes"),
-          require("utils"))
+stopifnot(require("fortunes"), require("utils"), getRversion() >= "3.2.1")
 sessionInfo()
 packageDescription("fortunes")
 
@@ -22,8 +20,7 @@ allOut <- lapply(seq_len(nF), function(i) capture.output(fortune(i)))
 ## In addition: Warning message:
 ## In strsplit(line1, "<x>") : input string 1 is invalid in this locale
 
-stopifnot(unique(vapply(allOut, class, "")) == "character",
-          length(allOut) == nF)
+stopifnot(unique(vapply(allOut, class, "")) == "character", length(allOut) == nF)
 
 ## lines of output
 nlFort <- lengths(allOut)
@@ -36,12 +33,13 @@ stopifnot(vapply(ncFort, `[[`, -1, 1L) == 0, # empty (0 char) line at beginning
 
 table(nlFort)
 plot(table(nlFort),
-     main = paste0("fortune(n): #{lines of output},  n = 1..", nF),
-     xlab = "#{lines}"); abline(h=0, col="gray")
+  main = paste("fortune(n): #{lines of output},  n = 1..", nF, sep = ""),
+  xlab = "#{lines}")
+abline(h = 0, col = "gray")
 
-tAut <- table(FD[,"author"])
-sort(tAut, decreasing=TRUE)
+tAut <- table(FD[, "author"])
+sort(tAut, decreasing = TRUE)
 ## "TODO": a version where multi-authors are split (with weights 1/k for group of k)
 
-plot(table(tAut), main = paste0("#{fortunes per \"author\"}"))
-abline(h=0, col="gray")
+plot(table(tAut), main = paste("#{fortunes per \"author\"}", sep = ""))
+abline(h = 0, col = "gray")
