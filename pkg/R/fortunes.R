@@ -54,7 +54,7 @@ fortune <- function(which = NULL, fortunes.data = NULL, fixed = TRUE,
     which <- which1
     if(length(which) > 1) which <- sample(which, size = 1)
   }
-  if(length(which) > 0 && which %in% seq(along = rownames(fortunes.data))) {
+  if(length(which) > 0 && which %in% seq_along(rownames(fortunes.data))) {
     structure(fortunes.data[which, ], class = "fortune")
   } else {
     character(0)
