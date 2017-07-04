@@ -386,3 +386,4 @@ Performance tweaks are more often bug sources than fixes.;Duncan Murdoch;on Mart
 "This is like asking, ""My car doesn't work. Can anyone tell me what is wrong?""";Jeff Newmiller;"in response to the generic question why ""some packages do not work"" in R 3.2.5";R-help;June 2016
 If we put in a function into rstan that dropped chains, people would use it.;Ben Goodrich;about (not) discarding selected chains from a stanfit object;Stan-users;December 2016
 You can't really debug the Bugs code.;Martyn Plummer;NA;useR! 2017;July 2017
+"""R is free software and comes with ABSOLUTELY NO WARRANTY."" This is essentially the same lack of warranty that you get with commercial software, though it's stated a lot more clearly.";Duncan Murdoch;NA;R-devel;July 2017
