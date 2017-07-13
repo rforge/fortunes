@@ -1,6 +1,6 @@
 Package: fortunes
-Version: 1.5-4
-Date: 2016-12-29
+Version: 1.5-5
+Date: 2017-07-14
 Title: R Fortunes
 Author: Achim Zeileis (R code) and the R community (fortunes).
         Contributions (fortunes and/or code) by Torsten Hothorn,
@@ -20,7 +20,7 @@ Author: Achim Zeileis (R code) and the R community (fortunes).
 	Lancelot, R. Michael Weylandt, Jon Olav Skoien, Francois
 	Morneau, Antony Unwin, Joshua Wiley, Terry Therneau, Bryan
 	Hanson, Henrik Singmann, Eduard Szoecs, Gregor Passolt,
-	John C. Nash.
+	John C. Nash, Thierry Onkelinx.
 Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
 Description: A collection of fortunes from the R community.
 Imports: utils
