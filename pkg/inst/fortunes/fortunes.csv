@@ -391,3 +391,4 @@ You can't really debug the Bugs code.;Martyn Plummer;NA;useR! 2017;July 2017
 If it is not reproducible, it is not science.;Edzer Pebesma;about GIS analyses based on mouse clicks;useR! 2017;July 2017
 The hard part of statistics is that you first have to sit down and think about the model.;Yves Rosseel;NA;useR! 2017;July 2017
 "Working out the appropriate number of escapes is painful; I recommend trial and error.";Duncan Murdoch;on escaping characters in Rd files;R-package-devel;November 2017
+Many things a developer / power-user would do are very difficult on Windows. It is one of the charms of the platform. On the other hand you do get a few solitaire games so I guess everybody is happy.;Dirk Eddelbuettel;in a discussion on building R with OpenBLAS on different platforms;R-devel;December 2017
