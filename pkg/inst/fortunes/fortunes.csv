@@ -394,3 +394,4 @@ The hard part of statistics is that you first have to sit down and think about t
 Many things a developer / power-user would do are very difficult on Windows. It is one of the charms of the platform. On the other hand you do get a few solitaire games so I guess everybody is happy.;Dirk Eddelbuettel;in a discussion on building R with OpenBLAS on different platforms;R-devel;December 2017
 Most users are upgraded at least annually, so problems with older versions could go undetected.;Peter Dalgaard;in response to an inquiry whether a 5-year-old R version would run on a current Windows system;R-help;August 2018
 When you begin to scratch the surface of spatial plotting all hell breaks through.;Thomas Lin Pedersen;about understanding tutorials for geom_sf;Twitter;February 2019
+When I'm dead.;Frank Harrell;"remark in response to the question ""When is it ok to discretize continuous data?""";useR! 2016, Stanford;June 2016

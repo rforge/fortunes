@@ -20,7 +20,7 @@ Author: Achim Zeileis (R code) and the R community (fortunes).
 	Lancelot, R. Michael Weylandt, Jon Olav Skoien, Francois
 	Morneau, Antony Unwin, Joshua Wiley, Terry Therneau, Bryan
 	Hanson, Henrik Singmann, Eduard Szoecs, Gregor Passolt,
-	John C. Nash, Thierry Onkelinx.
+	John C. Nash, Thierry Onkelinx, Ron Ammar.
 Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
 Description: A collection of fortunes from the R community.
 Imports: utils
