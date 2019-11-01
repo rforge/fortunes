@@ -395,3 +395,4 @@ Many things a developer / power-user would do are very difficult on Windows. It 
 Most users are upgraded at least annually, so problems with older versions could go undetected.;Peter Dalgaard;in response to an inquiry whether a 5-year-old R version would run on a current Windows system;R-help;August 2018
 When you begin to scratch the surface of spatial plotting all hell breaks through.;Thomas Lin Pedersen;about understanding tutorials for geom_sf;Twitter;February 2019
 When I'm dead.;Frank Harrell;"remark in response to the question ""When is it ok to discretize continuous data?""";useR! 2016, Stanford;June 2016
+This mailing list is for R bugs, which this isn't. R Core can no more help you with this bug than with a paper jam in your printer.;Hugh Parsonage;in response to an inquiry about a bug in a contributed package;R-devel;November 2019
